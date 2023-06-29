@@ -26,7 +26,7 @@ Tarefa.init({
     modelName:'tarefa'
   }
 )
-tipo.hasMany(Tarefa)
+tipo.hasOne(Tarefa)
 Tarefa.belongsTo(tipo)
 
 usuario.hasMany(Tarefa)
